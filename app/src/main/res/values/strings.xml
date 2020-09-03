@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MimicMonster1.00</string>
+    <string name="start">Start</string>
+    <string name="course1">初級１　ぷよ</string>
+    <string name="course2">初級２　ゴースト</string>
+    <string name="course3">初級３　一つ目</string>
+    <string name="course4">初級４　河童</string>
+    <string name="course5">初級５　小悪魔ひよこ</string>
+    <string name="course6">初級６　マジカルパンプキン</string>
+    <string name="course7">中級１　ミイラ男</string>
+    <string name="course8">中級２　ナイト</string>
+    <string name="course9">中級３　ミノタウロス</string>
+    <string name="course10">上級１　ゴーレム</string>
+    <string name="course11">上級２　ゴーストアーマー</string>
+    <string name="course12">難　関　ドラゴン</string>
+    <string name="gototest">Go to Test</string>
+    <string name="answer1">回答１</string>
+    <string name="answer2">回答２</string>
+    <string name="answer3">回答３</string>
+    <string name="totiembox">To Item Box</string>
+    <string name="resultno">❌</string>
+    <string name="resultyes">⭕</string>
+    <string name="resultStr">⭕️❌</string>
+    <string name="a1">１</string>
+    <string name="a2">２</string>
+    <string name="a3">３</string>
+    <string name="a4">４</string>
+    <string name="a5">５</string>
+    <string name="qtitle">問題です</string>
+    <string name="atitle1">　選択　１</string>
+    <string name="atitle2">　選択　２</string>
+    <string name="atitle3">　選択　３</string>
+    <string name="backtocourse">Back to Course</string>
+
+    <string name="unitid">ca-app-pub-2092414541000978/1773964798</string>
+
+    <!--
+    <string name="unitid">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+</resources>
