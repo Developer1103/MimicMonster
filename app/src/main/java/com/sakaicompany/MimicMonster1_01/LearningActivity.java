@@ -289,17 +289,18 @@ public class LearningActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void alert(Context context, String title, String message) {
-        new SweetAlertDialog(context)
-                .setTitleText(title)
-                .setContentText(message)
-                .setConfirmText("OK")
-                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                    @Override
-                    public void onClick(SweetAlertDialog sDialog) {
-                        init();
-                        sDialog.dismissWithAnimation();
-                    }
-                })
-                .show();
+        SweetAlertDialog alert = new SweetAlertDialog(this);
+        alert.setCancelable(false);
+        alert.setTitleText(title);
+        alert.setContentText(message);
+        alert.setConfirmText("OK");
+        alert.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+            @Override
+            public void onClick(SweetAlertDialog sDialog) {
+                init();
+                sDialog.dismissWithAnimation();
+            }
+        });
+        alert.show();
     }
 }

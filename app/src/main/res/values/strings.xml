@@ -32,8 +32,10 @@
     <string name="atitle3">　選択　３</string>
     <string name="backtocourse">Back to Course</string>
 
+    <!-- Unit ID -->
     <string name="unitid">ca-app-pub-2092414541000978/1773964798</string>
 
+    <!-- Test Unit ID -->
     <!--
     <string name="unitid">ca-app-pub-3940256099942544/6300978111</string>
     -->
